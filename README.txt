@@ -18,6 +18,18 @@ The authors are : (freesound.org)
 -usedtobe (song5)
 -zagi2 (song6)
 
+Description:
+------------
+In the Jukebox plus mod you've got 9 different music discs.
+
+You can add music by copy your ogg file to the sounds folder and renaming them to e.g. this:
+jukebox_disc_2.0.ogg
+
+There are 9 discs so there are the sound files jukebox_disc_1.*.ogg to jukebox_disc_9.*.ogg.
+The small star can be replaced by the numbers 0 to 9.
+
+So you can have up to 9x10 (90) songs!
+
 
 Using the mod:
 --------------
