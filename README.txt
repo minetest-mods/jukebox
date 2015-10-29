@@ -22,13 +22,13 @@ The authors are : (freesound.org)
 Using the mod:
 --------------
 
-To use the jukebox, you have to craft one. You need 8 wood and 1 diamond to craft it following way:
+To use the jukebox, you have to craft one. You need 8 wood and 1 mese crystal to craft it following way:
 
-wood    wood    wood
-wood   diamond  wood
-wood    wood    wood
+wood      wood      wood
+wood  mese crystal  wood
+wood      wood      wood
 
 
-Just click with a music disc in your hand on the jukebox and it will play a random song. To stop the music
-rightclick the box again and it will drop the music disc.
+Just rightclick with a music disc in your hand on the jukebox and it will play a random song from this disc.
+To stop the music rightclick the box again and it will drop the music disc.
 
