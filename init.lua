@@ -26,31 +26,31 @@ minetest.register_node("jukebox:box", {
 			item = clicker:get_wielded_item():get_name()
 			if item == "jukebox:disc_1" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_1", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_1", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_2" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_2", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_2", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_3" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_3", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_3", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_4" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_4", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_4", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_5" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_5", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_5", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_6" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_6", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_6", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_7" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_7", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_7", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_8" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_8", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_8", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			elseif item == "jukebox:disc_9" then
 				inv:set_stack("main",1, itemstack:take_item())
-				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_9", {gain = 0.5, pos = pos, max_hear_distance = 25}))
+				meta:set_string("hwnd",minetest.sound_play("jukebox_disc_9", {gain = 0.5, position = pos, max_hear_distance = 25}))
 			end
 		else
 			local drop_pos = minetest.env:find_node_near(pos, 1, "air")
