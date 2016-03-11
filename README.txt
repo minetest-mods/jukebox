@@ -5,7 +5,7 @@ Version: 1.1
 License of source code and textures: WTFPL 
 ------------------------------------------
 Copyright (C) 2013 BlockMen
-Copyright (C) 2015 LNJ
+Copyright (C) 2015-2016 LNJ
 
 
 License of music: CC0
@@ -24,6 +24,7 @@ In the Jukebox plus mod you've got 9 different music discs.
 
 You can add music by copy your ogg file to the sounds folder and renaming them to e.g. this:
 jukebox_disc_2.0.ogg
+But pay attention that the sounds have to be mono, else you can hear the music all over the world.
 
 There are 9 discs so there are the sound files jukebox_disc_1.*.ogg to jukebox_disc_9.*.ogg.
 The small star can be replaced by the numbers 0 to 9.
