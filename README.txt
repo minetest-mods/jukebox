@@ -1,22 +1,46 @@
-Minetest mod "Jukebox (plus)"
-=============================
-Version: 1.1
+Minetest mod "Jukebox"
+======================
+Version: 1.2
 
-License of source code and textures: WTFPL 
-------------------------------------------
-Copyright (C) 2013 BlockMen
-Copyright (C) 2015-2016 LNJ
+License of source code: 
+-----------------------
+Copyright (C) 2013 BlockMen <blockmen2015@gmail.com>
+Copyright (C) 2015-2016 LNJ <lnj.git@gmail.com>
+
+        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+                    Version 2, December 2004 
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+ Everyone is permitted to copy and distribute verbatim or modified 
+ copies of this license document, and changing it is allowed as long 
+ as the name is changed. 
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+
+License of textures:
+--------------------
+(by Authors)
+
+BlockMen (WTFPL):
+  jukebox_disc_*.png (added coulors by lightonflux)
 
 
 License of music: CC0
 ---------------------
-The authors are : (freesound.org)
--cheesepuff (song1)
--geerterig (song2)
--rap2h (song3)
--keffstay (song4)
--usedtobe (song5)
--zagi2 (song6)
+The authors are (freesound.org):
+  - cheesepuff (song1)
+  - geerterig (song2)
+  - rap2h (song3)
+  - keffstay (song4)
+  - usedtobe (song5)
+  - zagi2 (song6)
+
+
 
 Description:
 ------------
