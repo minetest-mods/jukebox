@@ -6,6 +6,7 @@ License of source code:
 -----------------------
 Copyright (C) 2013 BlockMen <blockmen2015@gmail.com>
 Copyright (C) 2015-2016 LNJ <lnj.git@gmail.com>
+Copyright (C) 2016 Rui
 
         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
                     Version 2, December 2004 
