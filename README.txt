@@ -1,6 +1,6 @@
 Minetest mod "Jukebox"
 ======================
-Version: 1.2
+Version: 2.0
 
 License of source code: 
 -----------------------
@@ -23,6 +23,7 @@ Copyright (C) 2016 Rui
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
+
 License of textures:
 --------------------
 (by Authors)
@@ -43,6 +44,11 @@ The authors are (freesound.org):
 
 
 
+Notice:
+-------
+This mod is only useable with Minetest 0.4.14 or above!
+
+
 Description:
 ------------
 In the Jukebox plus mod you've got 9 different music discs.
@@ -59,14 +65,37 @@ So you can have up to 9x10 (90) songs!
 
 Using the mod:
 --------------
-
 To use the jukebox, you have to craft one. You need 8 wood and 1 mese crystal to craft it following way:
 
 wood      wood      wood
 wood  mese crystal  wood
 wood      wood      wood
 
-
 Just rightclick with a music disc in your hand on the jukebox and it will play a random song from this disc.
 To stop the music rightclick the box again and it will drop the music disc.
 
+
+API Documentation:
+------------------
+The jukebox mod offers a simple API to register new discs. See here how to use it:
+
+jukebox.register_disc("mymod:new_disc", {
+	description = "New Disc",
+	 ^ The item description
+	inventory_image = "mymod_new_disc.png",
+	 ^ The disc image / texture
+	music_name = "mymod_new_disc",
+	 ^ This is the sound that'll be played if you insert the disc
+	 
+	-- if you want to you can add here more options as in minetest.register_craftitem (except stack_max)
+})
+
+
+
+Links:
+------
+Forum Topic:
+  https://forum.minetest.net/viewtopic.php?id=13505
+
+GitHub:
+  https://github.com/lnj2/jukebox

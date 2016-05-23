@@ -1,15 +1,21 @@
 jukebox = {}
 jukebox.registered_discs = {}
 
-function jukebox.register_disc(name, description, inventory_image, music_name)
-	minetest.register_craftitem(":" .. name, {
-		description = description,
-		inventory_image = inventory_image,
-		stack_max = 1
-	})
+function jukebox.register_disc(name, def)
+	def.stack_max = 1
+	
+	local music_name = def.music_name
+	def.music_name = nil
+
+	minetest.register_craftitem(":" .. name, def)
 
 	jukebox.registered_discs[name] = music_name
 end
+
+-- +-----------+
+-- |  The Box  |
+-- +-----------+
+
 
 local handlers = {}
 
@@ -120,13 +126,21 @@ minetest.register_craft({
 	}
 })
 
+-- +---------+
+-- |  Discs  |
+-- +---------+
+
 for i = 1, 9 do
 	local item_name = "jukebox:disc_" .. i
 	local description = "Music Disc " .. i
 	local inventory_image = "jukebox_disc_" .. i .. ".png"
 	local music_name = "jukebox_disc_" .. i
 
-	jukebox.register_disc(item_name, description, inventory_image, music_name)
+	jukebox.register_disc(item_name, {
+		description = description,
+		inventory_image = inventory_image,
+		music_name = music_name
+	})
 end
 
 minetest.register_craft({
