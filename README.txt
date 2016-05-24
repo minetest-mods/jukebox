@@ -98,4 +98,4 @@ Forum Topic:
   https://forum.minetest.net/viewtopic.php?id=13505
 
 GitHub:
-  https://github.com/lnj2/jukebox
+  https://github.com/minetest-mods/jukebox
