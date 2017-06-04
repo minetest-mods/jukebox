@@ -1,3 +1,7 @@
+-- Load support for intllib.
+local MP = minetest.get_modpath(minetest.get_current_modname())
+local S, NS = dofile(MP.."/intllib.lua")
+
 jukebox = {}
 jukebox.registered_discs = {}
 
@@ -20,7 +24,7 @@ end
 local handlers = {}
 
 minetest.register_node("jukebox:box", {
-	description = "Jukebox",
+	description = S("Jukebox"),
 	paramtype2 = "facedir",
 	stack_max = 1,
 	tiles = {
@@ -132,7 +136,7 @@ minetest.register_craft({
 
 for i = 1, 9 do
 	local item_name = "jukebox:disc_" .. i
-	local description = "Music Disc " .. i
+	local description = S("Music Disc @1", i)
 	local inventory_image = "jukebox_disc_" .. i .. ".png"
 	local music_name = "jukebox_disc_" .. i
 
@@ -151,3 +155,4 @@ minetest.register_craft({
 		{"", "default:coal_lump", ""}
 	}
 })
+
