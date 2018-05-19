@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-04 22:01+0200\n"
-"PO-Revision-Date: 2018-03-15 17:38+0000\n"
+"PO-Revision-Date: 2018-05-20 16:38+0000\n"
 "Last-Translator: Muhammad Rifqi Priyo Susanto "
 "<muhammadrifqipriyosusanto@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/minetest/"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #: init.lua
 msgid "Jukebox"
@@ -26,4 +26,4 @@ msgstr "Kotak Musik"
 
 #: init.lua
 msgid "Music Disc @1"
-msgstr "Diska Musik @1"
+msgstr "Cakram Musik @1"
