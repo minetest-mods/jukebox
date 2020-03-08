@@ -1,0 +1,7 @@
+# textdomain: jukebox
+
+
+### init.lua ###
+
+Jukebox=Vitrola
+Music Disc @1=Disco de Música @1
